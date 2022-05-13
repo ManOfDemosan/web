@@ -8,13 +8,14 @@
 
 .image{
 	position: relative;
-	width: 300px;
+
 	align-items:flex-start;
 }
 
 .image__img{
 	display: block;
-	width: 100%;
+	width: 300px;
+	height: 150px;
 }
 
 .image__overlay{
@@ -22,7 +23,7 @@
 	top: 0;
 	left: 0;
 	width: 100%;
-	height: 95%;
+	height: 55%;
 	background: rgba(0, 0, 0, 0.6);
 	color: white;
 	font-family: 'Quicksand', sans-serif;
@@ -36,6 +37,7 @@
 .image__overlay:hover{
 	opacity: 1;
 }
+
 
 
 .image__title{
