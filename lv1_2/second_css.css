@@ -40,35 +40,29 @@
 	opacity: 0;
 }
 
+.image__overlay--blur{
+	backdrop-filter: blur(5px);
+}
+
+.image__overlay > *{
+	transform: translateY(20px);
+	transition: transform 0.25s;
+}
+
 .image__overlay:hover{
 	opacity: 1;
 }
 
-
+.image__overlay:hover > *{
+	transform: translateY(0);
+}
 
 .image__title{
-	font-size: 2vw;
+	font-size: 1.5em;
 	font-weight: bold;
 }
 
 .image_discription{
-	font-size: 2vw;
-	margin-top: 0.5;
-}
-
-.image__img img:nth-of-type(3n),
-.image__img img:last-child{
-	margin-right: 0;
-}
-
-@media screen and (max-width:640px){
-	.image__img img{
-		width: calc(50% - 15px);
-	}
-}
-
-@media screen and (max-width:480px){
-	.image__img img{
-		width: calc(50% - 15px);
-	}
+	font-size: 1.25em;
+	margin-top: 0.25;
 }
