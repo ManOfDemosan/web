@@ -1,21 +1,27 @@
 .wrapper{
 	display: grid;
 	width: 900px;
+	height: 750;
 	grid-template-columns: 1fr 1fr 1fr;
 	grid-template-rows: 1fr 1fr 1fr;
 	gap: 20px 20px; 
 }
 
+.name{
+	font-size: large;
+}
+
 .image{
 	position: relative;
-
 	align-items:flex-start;
+
 }
 
 .image__img{
 	display: block;
 	width: 300px;
 	height: 150px;
+
 }
 
 .image__overlay{
