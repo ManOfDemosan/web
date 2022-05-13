@@ -1,15 +1,19 @@
+.wrapper{
+	display: grid;
+	width: 900px;
+	grid-template-columns: 1fr 1fr 1fr;
+	grid-template-rows: 1fr 1fr 1fr;
+	gap: 20px 20px; 
+}
+
 .image{
 	position: relative;
-	width: calc(33.333% - 10px);
+	width: 300px;
 	align-items:flex-start;
 }
 
-.image__tilte{
-	display: block;
-	width: 100%;
-}
-
 .image__img{
+	display: block;
 	width: 100%;
 }
 
