@@ -8,6 +8,7 @@ Chimchaku man's Thumnail web page. //if you are Korean subscribe Chimtube.
 
 ## lv_1_4
 
-Lala land movie clip web page! because my favorit movie is lala land.
+Lala land movie clip web page! 
+Try and enjoy our enteractions
 
 ![lv_1_4](https://user-images.githubusercontent.com/86817683/169428344-bf58a754-1ed5-4690-af25-92e6c7649c3a.gif)
