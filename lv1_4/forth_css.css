@@ -3,15 +3,29 @@
 	flex-wrap: wrap;
 	gap: 20px 20px; 
 }
+@font-face {
+	font-family: 'Yasashii Bold';
+	font-style: normal;
+	font-weight: 800;
+	src: url('../lalaland/Yasashii\ W01\ Bold.ttf') format('truetype');
+  }
 
 .name{
 	width: 300px;
 	font-size:medium;
-	font-family: 'Quicksand', sans-serif;
+	font-family: 'Yasashii Bold';
+	color: #141921;
 	text-align: center;
 	white-space: nowrap;
 	text-overflow: ellipsis;
 	white-space: normal;
+}
+.title{
+	font-family: 'Yasashii Bold';
+	text-align: center;
+	font-weight: 800;
+	font-size: large;
+	font-style: calc();
 }
 
 .image{
