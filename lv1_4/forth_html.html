@@ -6,6 +6,7 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<title>Document</title>
 	<link rel="stylesheet" href="./forth_css.css">
+	<script src="forth_js.js"></script>
 	<script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"> </script>
 	<style>
 		body{
@@ -22,7 +23,7 @@
 		<div class="image">
 			<img class="image__img" src="../lalaland/1.another-day-of-sun.jpg" alt="AnotherDayOfSun">
 			<div class="image__overlay image__overlay--blur">
-				<div class="image__title"><h1>play</h1></div>
+				<div class="image__title"><h1><a onclick="move();" style="cursor:pointer">play</a></h1></div>
 			</div>
 			<div class="name">
 				<h1><a onclick="swal('The name is', 'Another Day Of Sun.', 'success');" style="cursor:pointer">Another Day Of Sun</a></h1>
