@@ -25,8 +25,8 @@
 	display: flex;
 	background: linear-gradient(rgba(0,0,0,0.2),rgba(0,0,0,0.8)), url(../lalaland/main.jpg);
 	background-repeat: no-repeat;
-  	background-position: center;
- 	background-size: cover;
+	background-position: center;
+	background-size: cover;
 }
 
 .container .header{
@@ -63,7 +63,7 @@
 	transform: translate(-50%,-50%);
 	color: white;
 	text-align: center;
-	font-family: Verdana, Geneva, Tahoma, sans-serif;
+	font-family: Yasashii Bold;
 }
 
 .container .hero h2{
